@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB139456248D183400C8F307 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB139455248D183400C8F307 /* AppDelegate.swift */; };
+		DB139458248D183400C8F307 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB139457248D183400C8F307 /* SceneDelegate.swift */; };
+		DB13945B248D183400C8F307 /* WeSplit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DB139459248D183400C8F307 /* WeSplit.xcdatamodeld */; };
+		DB13945D248D183400C8F307 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB13945C248D183400C8F307 /* ContentView.swift */; };
+		DB13945F248D183600C8F307 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB13945E248D183600C8F307 /* Assets.xcassets */; };
+		DB139462248D183600C8F307 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB139461248D183600C8F307 /* Preview Assets.xcassets */; };
+		DB139465248D183600C8F307 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB139463248D183600C8F307 /* LaunchScreen.storyboard */; };
+		DB139470248D183600C8F307 /* WeSplitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB13946F248D183600C8F307 /* WeSplitTests.swift */; };
+		DB13947B248D183600C8F307 /* WeSplitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB13947A248D183600C8F307 /* WeSplitUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB13946C248D183600C8F307 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB13944A248D183400C8F307 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB139451248D183400C8F307;
+			remoteInfo = WeSplit;
+		};
+		DB139477248D183600C8F307 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB13944A248D183400C8F307 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB139451248D183400C8F307;
+			remoteInfo = WeSplit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB139452248D183400C8F307 /* WeSplit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeSplit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB139455248D183400C8F307 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DB139457248D183400C8F307 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DB13945A248D183400C8F307 /* WeSplit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WeSplit.xcdatamodel; sourceTree = "<group>"; };
+		DB13945C248D183400C8F307 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DB13945E248D183600C8F307 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB139461248D183600C8F307 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DB139464248D183600C8F307 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB139466248D183600C8F307 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB13946B248D183600C8F307 /* WeSplitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeSplitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB13946F248D183600C8F307 /* WeSplitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeSplitTests.swift; sourceTree = "<group>"; };
+		DB139471248D183600C8F307 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB139476248D183600C8F307 /* WeSplitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeSplitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB13947A248D183600C8F307 /* WeSplitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeSplitUITests.swift; sourceTree = "<group>"; };
+		DB13947C248D183600C8F307 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB13944F248D183400C8F307 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB139468248D183600C8F307 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB139473248D183600C8F307 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB139449248D183400C8F307 = {
+			isa = PBXGroup;
+			children = (
+				DB139454248D183400C8F307 /* WeSplit */,
+				DB13946E248D183600C8F307 /* WeSplitTests */,
+				DB139479248D183600C8F307 /* WeSplitUITests */,
+				DB139453248D183400C8F307 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB139453248D183400C8F307 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB139452248D183400C8F307 /* WeSplit.app */,
+				DB13946B248D183600C8F307 /* WeSplitTests.xctest */,
+				DB139476248D183600C8F307 /* WeSplitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB139454248D183400C8F307 /* WeSplit */ = {
+			isa = PBXGroup;
+			children = (
+				DB139455248D183400C8F307 /* AppDelegate.swift */,
+				DB139457248D183400C8F307 /* SceneDelegate.swift */,
+				DB13945C248D183400C8F307 /* ContentView.swift */,
+				DB13945E248D183600C8F307 /* Assets.xcassets */,
+				DB139463248D183600C8F307 /* LaunchScreen.storyboard */,
+				DB139466248D183600C8F307 /* Info.plist */,
+				DB139459248D183400C8F307 /* WeSplit.xcdatamodeld */,
+				DB139460248D183600C8F307 /* Preview Content */,
+			);
+			path = WeSplit;
+			sourceTree = "<group>";
+		};
+		DB139460248D183600C8F307 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DB139461248D183600C8F307 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DB13946E248D183600C8F307 /* WeSplitTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB13946F248D183600C8F307 /* WeSplitTests.swift */,
+				DB139471248D183600C8F307 /* Info.plist */,
+			);
+			path = WeSplitTests;
+			sourceTree = "<group>";
+		};
+		DB139479248D183600C8F307 /* WeSplitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DB13947A248D183600C8F307 /* WeSplitUITests.swift */,
+				DB13947C248D183600C8F307 /* Info.plist */,
+			);
+			path = WeSplitUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB139451248D183400C8F307 /* WeSplit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB13947F248D183600C8F307 /* Build configuration list for PBXNativeTarget "WeSplit" */;
+			buildPhases = (
+				DB13944E248D183400C8F307 /* Sources */,
+				DB13944F248D183400C8F307 /* Frameworks */,
+				DB139450248D183400C8F307 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeSplit;
+			productName = WeSplit;
+			productReference = DB139452248D183400C8F307 /* WeSplit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB13946A248D183600C8F307 /* WeSplitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB139482248D183600C8F307 /* Build configuration list for PBXNativeTarget "WeSplitTests" */;
+			buildPhases = (
+				DB139467248D183600C8F307 /* Sources */,
+				DB139468248D183600C8F307 /* Frameworks */,
+				DB139469248D183600C8F307 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB13946D248D183600C8F307 /* PBXTargetDependency */,
+			);
+			name = WeSplitTests;
+			productName = WeSplitTests;
+			productReference = DB13946B248D183600C8F307 /* WeSplitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DB139475248D183600C8F307 /* WeSplitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB139485248D183600C8F307 /* Build configuration list for PBXNativeTarget "WeSplitUITests" */;
+			buildPhases = (
+				DB139472248D183600C8F307 /* Sources */,
+				DB139473248D183600C8F307 /* Frameworks */,
+				DB139474248D183600C8F307 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB139478248D183600C8F307 /* PBXTargetDependency */,
+			);
+			name = WeSplitUITests;
+			productName = WeSplitUITests;
+			productReference = DB139476248D183600C8F307 /* WeSplitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB13944A248D183400C8F307 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Cesar Contreras";
+				TargetAttributes = {
+					DB139451248D183400C8F307 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					DB13946A248D183600C8F307 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = DB139451248D183400C8F307;
+					};
+					DB139475248D183600C8F307 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = DB139451248D183400C8F307;
+					};
+				};
+			};
+			buildConfigurationList = DB13944D248D183400C8F307 /* Build configuration list for PBXProject "WeSplit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB139449248D183400C8F307;
+			productRefGroup = DB139453248D183400C8F307 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB139451248D183400C8F307 /* WeSplit */,
+				DB13946A248D183600C8F307 /* WeSplitTests */,
+				DB139475248D183600C8F307 /* WeSplitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB139450248D183400C8F307 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB139465248D183600C8F307 /* LaunchScreen.storyboard in Resources */,
+				DB139462248D183600C8F307 /* Preview Assets.xcassets in Resources */,
+				DB13945F248D183600C8F307 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB139469248D183600C8F307 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB139474248D183600C8F307 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB13944E248D183400C8F307 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB139456248D183400C8F307 /* AppDelegate.swift in Sources */,
+				DB13945B248D183400C8F307 /* WeSplit.xcdatamodeld in Sources */,
+				DB13945D248D183400C8F307 /* ContentView.swift in Sources */,
+				DB139458248D183400C8F307 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB139467248D183600C8F307 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB139470248D183600C8F307 /* WeSplitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB139472248D183600C8F307 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB13947B248D183600C8F307 /* WeSplitUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB13946D248D183600C8F307 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB139451248D183400C8F307 /* WeSplit */;
+			targetProxy = DB13946C248D183600C8F307 /* PBXContainerItemProxy */;
+		};
+		DB139478248D183600C8F307 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB139451248D183400C8F307 /* WeSplit */;
+			targetProxy = DB139477248D183600C8F307 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB139463248D183600C8F307 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB139464248D183600C8F307 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB13947D248D183600C8F307 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DB13947E248D183600C8F307 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB139480248D183600C8F307 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"WeSplit/Preview Content\"";
+				DEVELOPMENT_TEAM = H6ZQ35AQX6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = WeSplit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cesarcontreras.ios.WeSplit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB139481248D183600C8F307 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"WeSplit/Preview Content\"";
+				DEVELOPMENT_TEAM = H6ZQ35AQX6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = WeSplit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cesarcontreras.ios.WeSplit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DB139483248D183600C8F307 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H6ZQ35AQX6;
+				INFOPLIST_FILE = WeSplitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cesarcontreras.ios.WeSplitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeSplit.app/WeSplit";
+			};
+			name = Debug;
+		};
+		DB139484248D183600C8F307 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H6ZQ35AQX6;
+				INFOPLIST_FILE = WeSplitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cesarcontreras.ios.WeSplitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeSplit.app/WeSplit";
+			};
+			name = Release;
+		};
+		DB139486248D183600C8F307 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H6ZQ35AQX6;
+				INFOPLIST_FILE = WeSplitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cesarcontreras.ios.WeSplitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WeSplit;
+			};
+			name = Debug;
+		};
+		DB139487248D183600C8F307 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H6ZQ35AQX6;
+				INFOPLIST_FILE = WeSplitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cesarcontreras.ios.WeSplitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WeSplit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB13944D248D183400C8F307 /* Build configuration list for PBXProject "WeSplit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB13947D248D183600C8F307 /* Debug */,
+				DB13947E248D183600C8F307 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB13947F248D183600C8F307 /* Build configuration list for PBXNativeTarget "WeSplit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB139480248D183600C8F307 /* Debug */,
+				DB139481248D183600C8F307 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB139482248D183600C8F307 /* Build configuration list for PBXNativeTarget "WeSplitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB139483248D183600C8F307 /* Debug */,
+				DB139484248D183600C8F307 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB139485248D183600C8F307 /* Build configuration list for PBXNativeTarget "WeSplitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB139486248D183600C8F307 /* Debug */,
+				DB139487248D183600C8F307 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DB139459248D183400C8F307 /* WeSplit.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DB13945A248D183400C8F307 /* WeSplit.xcdatamodel */,
+			);
+			currentVersion = DB13945A248D183400C8F307 /* WeSplit.xcdatamodel */;
+			path = WeSplit.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DB13944A248D183400C8F307 /* Project object */;
+}
