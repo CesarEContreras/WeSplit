@@ -9,16 +9,14 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var name = ""
+    let students = ["Harry", "Hermione", "Ron"]
+    @State private var selectedStudent = "Harry"
     
     var body: some View {
-        NavigationView {
-            
-            Form {
-                TextField("Enter you name", text: $name)
-                Text("Your name is \(name)")
+        Picker("Select your student", selection: $selectedStudent){
+            ForEach(0 ..< students.count){
+                Text(self.students[$0])
             }
-            .navigationBarTitle("SwiftUI", displayMode: .inline)
         }
     }
 }
